@@ -1,0 +1,134 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  width: 342px;
+  align-items: center;
+  margin-bottom: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  // , box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    // box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+}
+
+@mixin img {
+  width: 100%;
+  // height: 342px;
+}
+
+@mixin h {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+
+  @media (max-width: 900px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 630px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 17px;
+  }
+}
+
+@mixin responsive {
+  @media (max-width: 1060px) {
+    width: 280px;
+    height: 280px;
+  }
+  @media (max-width: 900px) {
+    width: 250px;
+    height: 250px;
+  }
+  @media (max-width: 780px) {
+    width: 200px;
+    height: 200px;
+  }
+  @media (max-width: 630px) {
+    width: 160px;
+    height: 160px;
+  }
+
+  @media (max-width: 560px) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@mixin responsive1 {
+  @media (max-width: 875px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 670px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 14px;
+  }
+}
+
+@mixin responsive2 {
+  @media (max-width: 1060px) {
+    width: 280px;
+  }
+
+  @media (max-width: 900px) {
+    width: 250px;
+  }
+
+  @media (max-width: 780px) {
+    width: 200px;
+  }
+
+  @media (max-width: 630px) {
+    width: 160px;
+  }
+
+  @media (max-width: 560px) {
+    width: 300px;
+  }
+}
+
+@mixin main {
+  background-size: cover;
+  width: 599px;
+  height: 555px;
+  flex-shrink: 0;
+
+  @media (max-width: 1180px) {
+    height: 515px;
+    width: 559px;
+  }
+}
+
+@mixin mini {
+  width: 149px;
+  height: 158px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin-top: 39px;
+  // display: inline-block;
+}
+
+// @mixin info {
+//   @media (max-width:1163px){
+//     height: 515px;
+//     width: 460px;
+//   }
+
+//   @media (max-width:1050px){
+//     height: 515px;
+//     width: 440px;
+//   }
+// }

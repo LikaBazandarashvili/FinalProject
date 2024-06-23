@@ -1,0 +1,284 @@
+.locations3 {
+  display: flex;
+  justify-content: space-around;
+
+  @media (max-width: 560px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location19.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card1 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location20.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card2 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location21.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card3 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location22.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card4 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location23.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card5 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location24.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card6 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location25.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card7 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location26.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+
+  .card8 {
+    a {
+      @include card;
+      @include responsive2;
+    }
+
+    .image {
+      background-image: url("../images/location27.png");
+      background-size: cover;
+      width: 342px;
+      height: 342px;
+
+      @include responsive;
+    }
+    h3 {
+      @include h;
+      font-family: "Kaisei Decol", serif;
+    }
+    h4 {
+      @include h;
+      font-family: "Noto Sans Georgian", sans-serif;
+      margin-top: 27px;
+    }
+  }
+}
+
+.location3-section3 {
+  margin-bottom: 190px;
+
+  display: flex;
+  justify-content: center;
+  // border: 2px solid red;
+  .wrapper {
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+
+    .icon1 {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      background: #d9d9d9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3 ease;
+
+      &:hover {
+        background: #acacac;
+      }
+    }
+
+    .icon2 {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      background: rgba(217, 217, 217, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3 ease;
+
+      &:hover {
+        background: rgba(189, 187, 187, 0.5);
+      }
+    }
+    h5 {
+      color: #000;
+      //  font-family: "Nanum Myeongjo", serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
