@@ -1,0 +1,779 @@
+.container {
+  max-width: 2560px;
+  width: 95%;
+  margin: 0 auto;
+}
+.container header {
+  max-width: 2560px;
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 310px;
+  width: 100%;
+}
+@media (max-width: 460px) {
+  .container header .wrapper {
+    width: 43%;
+  }
+}
+@media (max-width: 400px) {
+  .container header .wrapper {
+    width: 53%;
+  }
+}
+.container header .wrapper .fa-suitcase-rolling {
+  font-size: 40px;
+}
+@media (max-width: 460px) {
+  .container header .wrapper .fa-suitcase-rolling {
+    font-size: 30px;
+  }
+}
+.container header .wrapper h2 {
+  font-size: 40px;
+}
+@media (max-width: 460px) {
+  .container header .wrapper h2 {
+    font-size: 30px;
+  }
+}
+.container header .wrapper h3 {
+  color: #000;
+  font-family: "Kaisei Decol", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 460px) {
+  .container header .wrapper h3 {
+    font-size: 16px;
+  }
+}
+.container header .wrapper-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+}
+@media (max-width: 1614px) {
+  .container header .wrapper-1 {
+    max-width: 550px;
+  }
+}
+@media (max-width: 995px) {
+  .container header .wrapper-1 {
+    display: none;
+  }
+}
+.container header .wrapper-1 nav {
+  max-width: 400px;
+  width: 100%;
+}
+@media (max-width: 1614px) {
+  .container header .wrapper-1 nav {
+    max-width: 300px;
+  }
+}
+.container header .wrapper-1 nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header .wrapper-1 a {
+  color: #000;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container input[type="text"] {
+  width: 188px;
+  height: 30px;
+  border: none;
+  border-radius: 40px;
+  background: rgba(217, 217, 217, 0.5);
+  padding: 5px 0px 4px 11px;
+}
+.container .fa-search {
+  font-size: 17px;
+  color: #776f6f;
+  transition: 0.3s ease;
+}
+.container .fa-search:hover {
+  color: #000;
+}
+.container .submit {
+  border: none;
+  background-color: white;
+}
+
+.icon {
+  display: none;
+}
+@media (max-width: 995px) {
+  .icon {
+    display: block;
+  }
+}
+.icon .fa-bars {
+  font-size: 40px;
+}
+@media (max-width: 460px) {
+  .icon .fa-bars {
+    font-size: 26px;
+  }
+}
+
+.location-background {
+  background-image: url("../images/LocationBackground.WEBP");
+  background-color: rgb(13, 53, 3);
+  background-position: center;
+  background-size: cover;
+  max-width: 2560px;
+  width: 100%;
+  height: 601px;
+  flex-shrink: 0;
+  margin-top: 34px;
+}
+
+.EachLocation-nav h4,
+.EachLocation-nav a {
+  color: #000;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 570px) {
+  .EachLocation-nav h4,
+  .EachLocation-nav a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 460px) {
+  .EachLocation-nav h4,
+  .EachLocation-nav a {
+    font-size: 13px;
+  }
+}
+.EachLocation-nav h4 {
+  margin: 107px 0 0 83px;
+}
+@media (max-width: 740px) {
+  .EachLocation-nav h4 {
+    margin-left: 20px;
+  }
+}
+.EachLocation-S-1 {
+  display: flex;
+  margin-top: 118px;
+}
+.EachLocation-S-1 .EachLocation-container {
+  max-width: 1900px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.EachLocation-S-1 .main {
+  background-size: cover;
+  width: 599px;
+  height: 555px;
+  flex-shrink: 0;
+  background-image: url("../images/გერგეთის\ სამება.png");
+  background-color: #023102;
+}
+.EachLocation-S-1 .mini-image-wrapper {
+  display: flex;
+}
+.EachLocation-S-1 .mini-image-wrapper .mini {
+  width: 149px;
+  height: 158px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin-top: 39px;
+  background-image: url("../images/გერგეთის\ სამება2.png");
+  background-color: #022402;
+  margin-right: 29px;
+}
+.EachLocation-S-1 .mini-image-wrapper .mini2 {
+  width: 149px;
+  height: 158px;
+  flex-shrink: 0;
+  background-size: cover;
+  margin-top: 39px;
+  background-image: url("../images/გერგეთის\ სამება1.png");
+  background-color: #022402;
+}
+.EachLocation-S-1 .information {
+  display: flex;
+  flex-direction: column;
+  height: 555px;
+  position: relative;
+}
+.EachLocation-S-1 .information h3 {
+  color: #000;
+  font-family: "Metal", serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.EachLocation-S-1 .information p {
+  max-width: 500px;
+  width: 100%;
+  color: #000;
+  font-family: "Kameron", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.EachLocation-S-1 .information .button-translate {
+  max-width: 500px;
+  width: 100%;
+  height: 76px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.EachLocation-S-1 .information .button-translate button {
+  width: 213px;
+  height: 76px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin-top: 150px;
+  background: #24253c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transform: background-color 0, 3s ease;
+}
+.EachLocation-S-1 .information .button-translate button:hover {
+  background-color: #131424;
+}
+.EachLocation-S-1 .information .button-translate button h5 {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.EachLocation-S-1 .information .button-translate button .E {
+  font-family: "Jomolhari", serif;
+}
+.EachLocation-S-1 .information .button-translate .heart-icon {
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 170px;
+}
+.EachLocation-S-1 .information .button-translate .heart-icon.red {
+  color: red;
+}
+.map {
+  max-width: 1156px;
+  width: 100%;
+  margin: 60px auto;
+}
+.map iframe {
+  width: 100%;
+}
+.map {
+  max-width: 1200px;
+}
+
+@media (max-width: 1180px) {
+  .image-wrapper .main {
+    width: 529px;
+    height: 495px;
+  }
+
+  .EachLocation-S-1 .information p {
+    max-width: 453px;
+    font-size: 17px;
+  }
+
+  .EachLocation-S-1 .information h3 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1095px) {
+  .image-wrapper .main {
+    width: 489px;
+    height: 455px;
+  }
+
+  .EachLocation-S-1 .information p {
+    max-width: 423px;
+    font-size: 16px;
+  }
+
+  .EachLocation-S-1 .information h3 {
+    font-size: 50px;
+  }
+
+  .EachLocation-S-1 .information .button-translate button {
+    width: 190px;
+  }
+}
+
+@media (max-width: 980px) {
+  .image-wrapper .main {
+    width: 479px;
+    height: 435px;
+  }
+
+  .EachLocation-S-1 .information p {
+    max-width: 413px;
+    font-size: 15px;
+  }
+
+  .EachLocation-S-1 .information h3 {
+    font-size: 45px;
+  }
+
+  .EachLocation-S-1 .information .button-translate button {
+    width: 175px;
+  }
+
+  .EachLocation-S-1 .information .button-translate button h5 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 980px) {
+  .image-wrapper .main {
+    width: 459px;
+    height: 415px;
+  }
+
+  .EachLocation-S-1 .information p {
+    max-width: 390px;
+    font-size: 14px;
+  }
+
+  .EachLocation-S-1 .information h3 {
+    font-size: 45px;
+  }
+
+  .EachLocation-S-1 .information .button-translate button {
+    width: 160px;
+    height: 65px;
+  }
+
+  .EachLocation-S-1 .information .button-translate button h5 {
+    font-size: 20px;
+  }
+
+  .EachLocation-S-1 .mini-image-wrapper .mini {
+    width: 119px;
+    height: 128px;
+  }
+
+  .EachLocation-S-1 .mini-image-wrapper .mini2 {
+    width: 119px;
+    height: 128px;
+  }
+}
+
+
+@media (max-width: 903px) {
+    .image-wrapper .main {
+        width: 429px;
+        height: 385px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 370px;
+        font-size: 13px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size: 42px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 150px;
+        height: 60px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 17px;
+      }
+}
+
+@media (max-width: 850px) {
+    .image-wrapper .main {
+        width: 400px;
+        height: 356px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 350px;
+        font-size: 12px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size: 38px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+       margin-top: 120px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 140px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 100px;
+        height: 109px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 100px;
+        height: 109px;
+      }
+}
+@media (max-width: 850px) {
+    .image-wrapper .main {
+        width: 360px;
+        height: 316px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 330px;
+        font-size: 10px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size: 35px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 130px;
+        height: 50px;
+       margin-top: 120px;
+       border-radius: 15px;
+      }
+}
+
+@media (max-width: 733px) {
+    .image-wrapper .main {
+        width: 340px;
+        height: 296px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 290px;
+        font-size: 10px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size: 35px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 120px;
+        height: 45px;
+       margin-top: 90px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 115px;
+        font-size: 15px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 15px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 85px;
+        height: 94px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 85px;
+        height: 94px;
+      }
+
+    
+}
+
+@media (max-width: 675px) {
+    .image-wrapper .main {
+        width: 310px;
+        height: 266px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 210px;
+        font-size: 8px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:28px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 100px;
+        height: 40px;
+       margin-top: 105px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 125px;
+        font-size: 15px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 13px;
+      }
+}
+
+@media (max-width: 680px) {
+    .image-wrapper .main {
+        width: 290px;
+        height: 246px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 205px;
+        font-size: 8px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:25px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 80px;
+        height: 30px;
+       margin-top: 85px;
+       border-radius: 13px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 100px;
+        font-size: 12px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 10px;
+      }
+}
+
+@media (max-width: 530px) {
+    .image-wrapper .main {
+        width: 240px;
+        height: 216px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 190px;
+        font-size: 7px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:22px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 80px;
+        height: 30px;
+       margin-top: 80px;
+       border-radius: 13px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 93px;
+        font-size: 10px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 10px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 50px;
+        height: 59px;
+        margin-top: 20px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 50px;
+        height: 59px;
+        margin-top: 20px;
+      }
+}
+
+
+@media (max-width: 460px) {
+    .image-wrapper .main {
+        width: 220px;
+        height: 196px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 180px;
+        font-size: 7px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:22px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 80px;
+        height: 30px;
+       margin-top: 21px;
+       border-radius: 13px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 40px;
+        font-size: 10px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 10px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 65px;
+        height: 74px;
+        margin-top: 20px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 65px;
+        height: 74px;
+        margin-top: 20px;
+      }
+}
+
+
+@media (max-width: 435px) {
+    .image-wrapper .main {
+        width: 200px;
+        height: 176px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 170px;
+        font-size: 6px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:20px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 70px;
+        height: 27px;
+       margin-top: 28px;
+       border-radius: 10px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 40px;
+        font-size: 10px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 8px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 45px;
+        height: 54px;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 45px;
+        height: 54px;
+        margin-top: 20px;
+      }
+}
+
+
+@media (max-width: 393px) {
+    .image-wrapper .main {
+        width: 168px;
+        height: 155.659px;
+      }
+
+      .EachLocation-S-1 .information p {
+        max-width: 155px;
+        font-size: 6px;
+      }
+    
+      .EachLocation-S-1 .information h3 {
+        font-size:17px;
+      }
+    
+      .EachLocation-S-1 .information .button-translate button {
+        width: 55px;
+        height: 20px;
+       
+       border-radius: 20px;
+       
+      }
+    
+      .EachLocation-S-1 .information .button-translate .heart-icon {
+        margin-top: 35px;
+        font-size: 8px;
+      }
+
+      .EachLocation-S-1 .information .button-translate button h5 {
+        font-size: 6px;
+      }
+
+      .EachLocation-S-1 .mini-image-wrapper .mini {
+        width: 45px;
+        height: 54px;
+        margin-top: 20px;
+        margin-right: 10px;
+      }
+    
+      .EachLocation-S-1 .mini-image-wrapper .mini2 {
+        width: 45px;
+        height: 54px;
+        margin-top: 20px;
+      }
+
+      .EachLocation-S-1 .information .button-translate {
+        height: 40px;
+      }
+      
+}
+
+/* @media(max-width:733px){
+  #content{
+    font-size: 1px;
+  }
+} */
