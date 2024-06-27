@@ -24,16 +24,10 @@ translateToGeorgianButton.addEventListener("click", () => {
   titleElement.textContent = georgianContent.title;
   contentElement.textContent = georgianContent.content;
 
-  (contentElement.style.fontFamily = "Noto Sans Georgian"), sans - serif;
-  contentElement.style.fontSize = "14px";
-  contentElement.style.width = "200px";
-  contentElement.style.color = "#000";
-  contentElement.style.fontWeight = "400";
-  titleElement.style.marginBottom = "30px";
-  titleElement.style.fontSize = "33px";
-  titleElement.style.color = "#000";
-  titleElement.style.fontWeight = "400";
-  (titleElement.style.fontFamily = "Noto Serif Georgian"), serif;
+  titleElement.style.fontSize = "x"
+  contentElement.style.marginBottom = "15px"
+
+
 });
 
 translateToEnglishButton.addEventListener("click", () => {
