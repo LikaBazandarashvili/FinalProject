@@ -163,7 +163,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s ease;
 }
+.AU-button:hover {
+  background: #061c2b;
+}
+
 
 .AU-button a {
   color: #fff;
@@ -259,7 +264,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s ease;
 }
+.circle:hover {
+  background: #061c2b;
+}
+
 
 @media (max-width: 678px) {
   .circle {

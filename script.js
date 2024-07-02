@@ -24,7 +24,7 @@ translateToGeorgianButton.addEventListener("click", () => {
   titleElement.textContent = georgianContent.title;
   contentElement.textContent = georgianContent.content;
 
-  titleElement.style.fontSize = "x"
+  
   contentElement.style.marginBottom = "15px"
 
 
